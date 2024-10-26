@@ -177,4 +177,47 @@ public class MovimientosBDD {
 			throw new InventarioException("Error al registrar el movimiento" + e.toString());
 		}
 	}
+	public ArrayList<RegistroMovimiento> consultarMovimientosPorArticulo(String idArticulo) throws InventarioException {
+	    Logger logger = LogManager.getLogger(MovimientosBDD.class);
+	    Connection con = null;
+	    PreparedStatement ps = null;
+	    ResultSet rs = null;
+	    ArrayList<RegistroMovimiento> movimientos = new ArrayList<>();
+
+	    try {
+	        con = ConexionBDD.conectar();
+	        ps = con.prepareStatement(
+	            "SELECT rm.id as id_registro, ar.id as articulo_id, cantidad, fecha_movimiento as fecha, ar.nombre as nombre, ar.precio_venta as precio_venta, ar.precio_compra as precio_compra, gr.id as grupo_id, gr.nombre as grupo_nombre " +
+	            "FROM registro_movimientos as rm, articulos as ar, grupos as gr " +
+	            "WHERE rm.id_articulo = ar.id AND gr.id = ar.id_grupo AND ar.id = ?");
+	        ps.setString(1, idArticulo);  // Cambiado a setString
+	        rs = ps.executeQuery();
+
+	        while (rs.next()) {
+	            int idRegistro = rs.getInt("id_registro");
+	            int cantidad = rs.getInt("cantidad");
+	            Date fecha = rs.getDate("fecha");
+	            String nombre = rs.getString("nombre");
+	            String precioVentaStr = rs.getString("precio_venta").replace("$", "").replace(",", ".");
+	            String precioCompraStr = rs.getString("precio_compra").replace("$", "").replace(",", ".");
+	            String idGrupo = rs.getString("grupo_id");
+	            String nombreGrupo = rs.getString("grupo_nombre");
+
+	            Grupo grupo = new Grupo(idGrupo, nombreGrupo);
+	            Articulo articulo = new Articulo(idArticulo, nombre, new BigDecimal(precioVentaStr), new BigDecimal(precioCompraStr), grupo);
+	            RegistroMovimiento movimientoCreado = new RegistroMovimiento(idRegistro, articulo, cantidad, fecha);
+	            movimientos.add(movimientoCreado);
+	        }
+	    } catch (InventarioException | SQLException e) {
+	        logger.error(e.toString());
+	        throw new InventarioException(e.toString());
+	    } finally {
+	        if (rs != null) try { rs.close(); } catch (SQLException ignored) {}
+	        if (ps != null) try { ps.close(); } catch (SQLException ignored) {}
+	        if (con != null) try { con.close(); } catch (SQLException ignored) {}
+	    }
+	    
+	    return movimientos;
+	}
+
 }
