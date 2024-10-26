@@ -119,7 +119,7 @@ public class GrupoBDD {
         
         try (Connection con = ConexionBDD.conectar();
              PreparedStatement ps = con.prepareStatement(sql)) {
-
+        	System.out.println(id);
             ps.setString(1, "%" + id + "%");
             int filasInsertadas = ps.executeUpdate();
 
@@ -129,7 +129,7 @@ public class GrupoBDD {
 
         } catch (SQLException e) {
             throw new InventarioException("Error al insertar el grupo: " + e.getMessage());
-        }W
+        }
     }
 
 }

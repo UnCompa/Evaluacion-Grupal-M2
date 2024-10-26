@@ -41,7 +41,7 @@ public class ServiciosGrupo {
 		}
 	
 	}
-	@Path("borrar/{id}")
+	@Path("borrar/id/{id}")
 	@DELETE()
 	public Response borrarGrupo(@PathParam("id") String id) {
 		GrupoBDD nuevoGrupo= new GrupoBDD();
