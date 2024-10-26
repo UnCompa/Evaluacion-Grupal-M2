@@ -114,6 +114,22 @@ public class GrupoBDD {
             throw new InventarioException("Error al insertar el grupo: " + e.getMessage());
         }
     }
+	public void borrarGrupo(String id) throws InventarioException {
+        String sql = "DELETE FROM grupos WHERE like ?";
+        
+        try (Connection con = ConexionBDD.conectar();
+             PreparedStatement ps = con.prepareStatement(sql)) {
 
+            ps.setString(1, "%" + id + "%");
+            int filasInsertadas = ps.executeUpdate();
+
+            if (filasInsertadas == 0) {
+                throw new InventarioException("No se pudo insertar el grupo" );
+            }
+
+        } catch (SQLException e) {
+            throw new InventarioException("Error al insertar el grupo: " + e.getMessage());
+        }W
+    }
 
 }
