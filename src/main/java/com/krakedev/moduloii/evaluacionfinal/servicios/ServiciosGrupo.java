@@ -32,7 +32,7 @@ public class ServiciosGrupo {
 		GrupoBDD nuevoGrupo= new GrupoBDD();
 		try {
 			nuevoGrupo.agregarGrupo(grupo);
-			return Response.ok(grupo).build();
+			return Response.ok("NUEVO GRUPO").build();
 		} catch (InventarioException e) {
 			return Response.serverError().build();
 			
