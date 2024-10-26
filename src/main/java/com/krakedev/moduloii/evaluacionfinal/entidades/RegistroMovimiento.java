@@ -12,6 +12,14 @@ public class RegistroMovimiento {
 		super();
 	}
 
+	public RegistroMovimiento(int id, Articulo idArticulo, int cantidad) {
+		super();
+		this.id = id;
+		this.idArticulo = idArticulo;
+		this.cantidad = cantidad;
+	}
+
+
 	public RegistroMovimiento(Articulo idArticulo, int cantidad, Date fechaMovimiento) {
 		super();
 		this.idArticulo = idArticulo;

@@ -157,4 +157,24 @@ public class MovimientosBDD {
 		}
 		return movimientos;
 	}
+	
+	public void registrar(RegistroMovimiento movimiento) throws InventarioException {
+		Logger logger = LogManager.getLogger(MovimientosBDD.class);
+		Connection con = null;
+		PreparedStatement ps = null;
+		try {
+			con = ConexionBDD.conectar();
+			Date fechaHoy = new Date();
+			Timestamp fechaSQL = new java.sql.Timestamp(fechaHoy.getTime());
+			ps = con.prepareStatement(
+					"INSERT INTO registro_movimientos (id_articulo, cantidad, fecha_movimiento) VALUES(?,?,?)");
+			ps.setString(1, movimiento.getIdArticulo().getId());
+			ps.setInt(2, movimiento.getCantidad());
+			ps.setTimestamp(3, fechaSQL);
+			ps.executeUpdate();
+		} catch (InventarioException | SQLException e) {
+			logger.error(e.toString());
+			throw new InventarioException("Error al registrar el movimiento" + e.toString());
+		}
+	}
 }
