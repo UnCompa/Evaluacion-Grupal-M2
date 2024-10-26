@@ -129,7 +129,7 @@ public class GrupoBDD {
 
         } catch (SQLException e) {
             throw new InventarioException("Error al insertar el grupo: " + e.getMessage());
-        }W
+        }
     }
 
 }
