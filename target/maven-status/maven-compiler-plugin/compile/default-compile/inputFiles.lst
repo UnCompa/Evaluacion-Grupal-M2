@@ -1,28 +1,28 @@
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosBuscarPoridTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosInsertarTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\utils\Convertidor.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoTodosTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\persistencia\ArticulosBDD.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\resources\JavaEE8Resource.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoInsertarTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\servicios\ServiciosMovimientos.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoActualizarTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\servicios\ServiciosArticulo.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\entidades\RegistroMovimiento.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\entidades\Articulo.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosInsertarTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\persistencia\MovimientosBDD.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\utils\ConexionBDD.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\persistencia\GrupoBDD.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\servicios\ServiciosGrupo.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosActualizarTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\entidades\Grupo.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosActualizarTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\RegistroMovimiento.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosRecuperarTodoTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosBuscarPorTodosTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\JAXRSConfiguration.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoBuscarPorIdTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosPorIdTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosRecuperarFechaTest.java
-C:\Users\Santiago Mosquera\Documents\evaluacionfinal\src\main\java\com\krakedev\moduloii\evaluacionfinal\excepciones\InventarioException.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoBuscarPorIdTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\servicios\ServiciosMovimientos.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosInsertarTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosPorIdTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosRecuperarFechaTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\persistencia\GrupoBDD.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\entidades\RegistroMovimiento.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\servicios\ServiciosGrupo.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\utils\Convertidor.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\excepciones\InventarioException.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoTodosTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\persistencia\MovimientosBDD.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosRecuperarTodoTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\resources\JavaEE8Resource.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosActualizarTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\utils\ConexionBDD.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\RegistroMovimiento.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoActualizarTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\MovimientosActualizarTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\entidades\Articulo.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\JAXRSConfiguration.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\entidades\Grupo.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosBuscarPorTodosTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\GrupoInsertarTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\servicios\ServiciosArticulo.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosBuscarPoridTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\test\ArticulosInsertarTest.java
+C:\Users\Juan Cantos\Desktop\evaluacion 2 krakedev\JAVA\Evaluacion-Grupal-M2\src\main\java\com\krakedev\moduloii\evaluacionfinal\persistencia\ArticulosBDD.java

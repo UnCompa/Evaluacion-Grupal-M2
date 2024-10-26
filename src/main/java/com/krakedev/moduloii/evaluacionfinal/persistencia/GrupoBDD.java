@@ -95,4 +95,25 @@ public class GrupoBDD {
 		}
 		return grupos;
 	}
+
+	public void agregarGrupo(Grupo grupo) throws InventarioException {
+        String sql = "INSERT INTO grupos (id, nombre) VALUES (?, ?)";
+        
+        try (Connection con = ConexionBDD.conectar();
+             PreparedStatement ps = con.prepareStatement(sql)) {
+
+            ps.setString(1, grupo.getId());
+            ps.setString(2, grupo.getNombre());
+            int filasInsertadas = ps.executeUpdate();
+
+            if (filasInsertadas == 0) {
+                throw new InventarioException("No se pudo insertar el grupo: " + grupo);
+            }
+
+        } catch (SQLException e) {
+            throw new InventarioException("Error al insertar el grupo: " + e.getMessage());
+        }
+    }
+
+
 }

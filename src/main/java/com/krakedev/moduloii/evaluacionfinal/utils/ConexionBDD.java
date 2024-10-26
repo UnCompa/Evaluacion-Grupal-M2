@@ -18,7 +18,7 @@ public class ConexionBDD {
 		Connection con = null;
 		try {
 			ctx = new InitialContext();
-			ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/PgDB");
+			ds = (DataSource) ctx.lookup("java:/comp/env/jdbc/INVENTARIOS");
 			con = ds.getConnection();
 		} catch (NamingException | SQLException e) {
 			e.printStackTrace();
